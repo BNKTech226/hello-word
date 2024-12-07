@@ -1,0 +1,38 @@
+:root{
+    --primaryColor: rgba(224, 6, 6, 0.61);
+}
+.tech{
+    display:inline-flex;
+    margin: 40px 0px 0px 75px;
+}
+.tech img{
+    height: 13%;
+    width: 13%;
+    border-radius: 50%;
+    border:solid 2px;
+    border-color: rgb(34, 4, 145);
+}
+.tech h1{
+    text-decoration: solid;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgba(22, 10, 190, 0.877)
+}
+.nav{
+    display:inline-flex;
+    text-align: center;
+    text-decoration: none;
+}
+.elem{
+    text-decoration: none;
+    margin-bottom: 10%;
+}
+.presentation{
+    text-decoration: underline;
+    text-align: center;
+}
+.contenu{
+    padding:0 3% 0 3%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
