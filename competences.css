@@ -1,0 +1,41 @@
+:root{
+    --primaryColor: rgba(224, 6, 6, 0.61);
+}
+.presentation{
+    text-decoration: underline;
+    text-align: center;
+}
+.contenu{
+    padding:0 3% 0 3%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+.container{
+    background-color: rgb(237, 246, 248);
+    border: solid 2px; 
+}
+img{
+    margin: 0% 10% 0% 10%;
+    width:80%;
+}
+/*.conteneur{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);Divise en 3 colonnes égales */
+}
+h2{
+    text-align: center;
+    color: rgb(17, 199, 26);
+}
+.container{
+  background: lightblue;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s, background-color 0.3s; /* Transition smooth */
+  padding: 10%;
+}
+
+.container:hover {
+  transform: scale(1.1); /* Agrandir l'élément */
+  background-color: rgb(112, 89, 241); /* Changer la couleur */
+}
