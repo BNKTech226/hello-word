@@ -1,0 +1,79 @@
+html{
+    
+    margin: 0%;
+   
+}
+body{
+background: linear-gradient(45deg, #ff7c7c, #8597ff);
+}
+
+p{
+    color: white;
+    font-size: large;
+    text-align: center;
+}
+
+ul{
+    list-style:  none;
+    display:flex;
+    justify-content: space-evenly;
+  }
+  ul img{
+    height: 30px;
+    width: 30px;
+  }
+
+.logo-img
+{
+    
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin: 0 auto; 
+}
+
+.logo{
+    /*background: linear-gradient(45deg, #ff7c7c, #8597ff);*/
+}
+
+.slogan {
+    font-size: 3rem;
+    text-align: center;
+    background: linear-gradient(45deg, #ff0000, #0026ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  /*----------------------------------------------------------------------------------------------*/
+  footer {
+    max-height: 100px;
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+}
+.links {
+   
+    display: inline-block;
+}
+.socialnetwork {
+    
+    display: flex;
+    background-color: grey;
+    justify-content:space-evenly;
+}
+.icons {
+    display: flex;
+  align-content: center;
+    height: 25px;
+    width: 25px;
+    
+}
+.mail{
+    display: inline;
+    text-align: center;
+}
+.copyright {
+    color: white;
+    text-align: center;
+}

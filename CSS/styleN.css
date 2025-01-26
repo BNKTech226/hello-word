@@ -1,0 +1,303 @@
+:root{
+    --primaryColor: #f8b800;
+}
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+.citation{
+    height: 66vh;
+  }
+  .left{
+    float: left;
+    width: 50%;
+    margin-top: 20%;
+  }
+  .right{
+    height: 66vh;
+  }
+    .right img{
+        float: right;
+        width: 50%;
+        position: relative;
+        right: auto;
+        height: 80%;
+        margin-top: 5%;
+    }
+.beta {
+    border: 2px solid ;
+    border-radius: 10px;
+    background-color: #1f1f26;
+    color: cadetblue;
+}
+  
+  
+.container1{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     min-height: 100vh;
+     background: linear-gradient(#eceffe,#ced6fb);
+}
+.container1 h1 {
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 2.5%;
+}
+
+.card{
+    max-width: 1200px;
+    margin: 0 60px 35px;
+    padding: 20px 10px;
+    overflow: hidden;
+    padding-left: 0px;
+}
+.card-ul .card-item {
+    list-style: none;
+}
+ul {
+    padding-left: 0; /* Supprime le padding gauche */
+    margin-left: 0;  /* Supprime le margin gauche */
+  }
+  
+.card-link{
+    padding-left: 0px;
+}
+.card-ul .card-link {
+    user-select: none;
+    display: block;
+    background: #fff;
+    padding: 18px;
+    border-radius: 12px;
+    text-decoration: none;
+    border: 2px solid transparent;
+    box-shadow: 0 10px 10px rgba(0,0, 0, 0,05);
+    transition: 0,3 ease;
+}
+.card-ul .card-item .card-link:active {
+    cursor:grabbing;
+}
+.card-ul .card-item .card-link:hover {
+    border-color: #5372F0;
+}
+.card-ul .card-img .card-link {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.card-img , .an-img{
+    width: 100%;
+    height: 40%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.card-ul .card-link .badge {
+    color: #5372F0;
+    background: #dde4ff;
+    margin: 16px 0 18px;
+    padding: 8px 16px;
+    font-weight: 500;
+    width: fit-content;
+    border-radius: 50px;
+}
+
+.card-ul .card-link .badge.web{
+    color: #825A2B;
+    background: #D6F8D6 ;
+}
+.card-ul .card-link .badge.formation{
+    color: #825A2B;
+    background: #D6F8D6 ;
+}
+.card-ul .card-link .badge.maintenance{
+    color: #825A2B;
+    background: #D6F8D6 ;
+}
+.card-ul .card-link .card-title {
+    font-size: 1.19rem;
+    color: #000;
+    font-weight: 600;
+}
+.card-ul .card-link .card-button {
+    height: 35px;
+    width: 35px;
+    color: #5372F0;
+    border-radius: 50px;
+    margin: 30px 0 5px;
+    background: none;
+    cursor: pointer;
+    border: 3px solid #5372F0;
+    transform: rotate(-45deg);
+    transition: 0.4s ease;
+}
+.card-ul .card-link:hover .card-button {
+    color: #fff;
+    background: #5372F0;
+}
+.card .swiper-pagination-bullet{
+    height: 13px;
+    width: 13px;
+    opacity: 0.5;
+    background: #5372F0;
+}
+.card .swiper-pagination-bullet-active{
+    opacity: 1;
+
+}
+.card .swiper-slide-button{
+    color: #5372F0;
+    margin-top: -40px;
+}
+.container2{
+     align-items: center;
+     justify-content: center;
+     min-height: 100vh;
+     background: linear-gradient(#0d0d0f,#ced6fb);
+}
+.beta1{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 2.5%;
+    color: #ced6fb;
+}
+}
+.annonce{
+    
+    padding: 20px 10px;
+    overflow: hidden;
+    display: inline-flex;
+}
+.ann-ul{
+    display: flex;
+    height: 40%;
+}
+.ann-ul .an-item {
+    list-style: none;
+    width: 35%;
+    
+}
+.ann-link{
+    margin: 0 20px;
+}
+.ann-ul .an-item .ann-link {
+    user-select: none;
+    display: block;
+    background: #fff;
+    padding: 18px;
+    border-radius: 12px;
+    text-decoration: none;
+    border: 2px solid transparent;
+    box-shadow: 0 10px 10px rgba(0,0, 0, 0,05);
+    transition: 0,3 ease;
+}
+.ann-ul .an-img .ann-link {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.an-img{
+    width: 100%;
+    height: 40%;
+    background-size: cover;
+}
+.tech{
+    height: 150px;
+    width: 100%;
+    display: inline-flex;
+    color: rgb(164, 83, 189);
+}
+.marque{
+    margin-top: 30px;
+    margin-right: auto;
+}
+.marque h3{
+    margin-top:0%;
+    color: rgb(34, 5, 74);
+}
+.tech img{
+    height:100%;
+    border-radius: 75px 75px 75px 75px;
+    margin-left: 5%;
+    margin-right: 1%;
+}
+.menu{
+    background-color: #fff; /* Couleur de fond du pied de page */
+    margin-right: 5%;
+    margin-top: auto;
+    margin-bottom: 20px;
+   
+}
+ .menu ul{
+        list-style: none; /* Retirer les puces des �l�ments de la liste */
+        padding: 0; /* Retirer le padding par d�faut */
+        margin: 0; /* Retirer la marge par d�faut */
+        display: flex; /* Aligner les �l�ments de la liste en ligne */
+        /* justify-content: center;  Centrer les �l�ments horizontalement */
+    }
+  
+    .menu li{
+        margin: 0 20px; /* Espacement horizontal entre les �l�ments de la liste */
+    }
+  
+    .menu a{
+        text-decoration: none; /* Supprimer la sous-ligne des liens */
+        color: #OOO; /* Couleur du texte des liens */
+        font-size: 20px; /* Taille de la police */
+    }
+    .menu a:hover{
+        text-decoration: underline; /* Souligner les liens au survol */
+        transform: scale(1,4);
+    }
+    .hamburger { 
+        display: none; /* Masquer l'icône de hamburger par défaut */ 
+        font-size: 24px; 
+        cursor: pointer;
+        position: absolute;
+        top: 30px;;
+        right: 30px;
+        width: 35px;
+        
+    }
+    @media screen and (max-width: 768px) {
+        .card{
+            margin: 0 10px 25px;
+        }
+        .card .swiper-slide-button{
+            display: none;
+        }
+       
+        .tech { 
+            height: 100px; 
+        } 
+      
+        .tech img { 
+            height: 80%;
+            margin-left: 0px; 
+        } 
+         .menu a { 
+            font-size: 16px; 
+        }
+        
+    }
+    
+    @media screen and (max-width: 1200px) { 
+        .tech { height: 120px; } 
+        .marque { margin-top: 20px; } 
+        .marque h3 { margin-top: 2%; } 
+        .tech img { height: 90%; } 
+        .menu a { font-size: 18px; } 
+    } 
+  @media screen and (max-width: 992px) {
+    .menu ul {
+        display: none;
+    }
+    .hamburger{
+        display: block;
+    }
+
+  }
